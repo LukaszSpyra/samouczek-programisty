@@ -14,15 +14,14 @@ public class WritingFiles {
         path = inputScanner.nextLine();
     }
 
-    private void writeDataToFile() throws IOException {
+    private void writeDataToFile() {
         System.out.println("Type text line to be written to file, press: \"-\" followed by \"enter\" to end");
         Scanner inputScanner = new Scanner(System.in);
         boolean flag = true;
-        FileWriter fileWriter = null;
 
-        try {
-            fileWriter = new FileWriter(path);
-
+        try (
+                FileWriter fileWriter = new FileWriter(path)
+            ) {
             while (flag) {
                 String textLine = inputScanner.nextLine();
 
@@ -34,14 +33,10 @@ public class WritingFiles {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (fileWriter!=null){
-                fileWriter.close();
-            }
         }
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         WritingFiles writingFiles = new WritingFiles();
         writingFiles.setDestinationFilePath();
