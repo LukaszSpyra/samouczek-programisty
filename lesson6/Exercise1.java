@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercise1 {
     private int sum;
     private int counter=0;
+
     private void ratingInput(){
         Scanner inputScanner = new Scanner(System.in);
         String x;
