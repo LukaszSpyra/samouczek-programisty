@@ -1,4 +1,4 @@
-package pl.samouczekprogramisty.CollectionsExcercises;
+package pl.samouczekprogramisty.CollectionsExercises;
 
 import java.util.HashSet;
 import java.util.Scanner;
