@@ -1,4 +1,4 @@
-package pl.samouczekprogramisty.Threads;
+package pl.samouczekprogramisty.threads;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package pl.samouczekprogramisty.JUnit5;
+package pl.samouczekprogramisty.junit5;
 
 import java.math.RoundingMode;
 

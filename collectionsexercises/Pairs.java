@@ -1,4 +1,4 @@
-package pl.samouczekprogramisty.CollectionsExercises;
+package pl.samouczekprogramisty.collectionsexercises;
 
 import java.util.HashMap;
 import java.util.Map;

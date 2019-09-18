@@ -1,7 +1,6 @@
-package pl.samouczekprogramisty.JUnit5;
+package pl.samouczekprogramisty.junit5;
 
 import java.math.BigDecimal;
-import java.util.IllegalFormatConversionException;
 
 enum WeightUnit{
     POUNDS, KILOGRAMS;

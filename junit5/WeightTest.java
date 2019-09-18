@@ -1,11 +1,11 @@
-package pl.samouczekprogramisty.JUnit5;
+package pl.samouczekprogramisty.junit5;
 
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static pl.samouczekprogramisty.JUnit5.Weight.*;
+import static pl.samouczekprogramisty.junit5.Weight.*;
 
 
 class WeightTest implements WeightScaling{
