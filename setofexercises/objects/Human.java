@@ -1,24 +1,24 @@
 package pl.samouczekprogramisty.setofexercises.objects;
 
 public class Human {
-    private int age = 30;
-    private int weight = 76;
-    private int height = 182;
-    private boolean male = true;
+    private Integer age = 30;
+    private Integer weight = 76;
+    private Integer height = 182;
+    private Boolean male = true;
 
-    public int getWeight() {
+    public Integer getWeight() {
         return weight;
     }
 
-    public int getHeight() {
+    public Integer getHeight() {
         return height;
     }
 
-    public boolean isMale() {
+    public Boolean isMale() {
         return male;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 

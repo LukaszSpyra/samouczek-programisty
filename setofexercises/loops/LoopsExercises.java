@@ -34,7 +34,7 @@ public class LoopsExercises {
         System.out.println(reversed);
     }
 
-    private static String reverseString(String word){
+    public static String reverseString(String word){
         char[] charArray = word.toCharArray();
         char[] reversedArray = new char[charArray.length];
         for (int i = 0; i < charArray.length ; i++) {
@@ -45,7 +45,7 @@ public class LoopsExercises {
         return reversedWord;
     }
 
-    private static void convertToBinary(int numberToBeConverted){
+    public static void convertToBinary(int numberToBeConverted){
         System.out.println("Result from method Integer.toBinaryString: " + Integer.toBinaryString(numberToBeConverted));
         StringBuilder reversedBinary = new StringBuilder();
         while (numberToBeConverted > 0){
@@ -55,10 +55,11 @@ public class LoopsExercises {
         reverseString(reversedBinary.toString());
     }
 
-    private static boolean checkPalindrome(String word){
+    public static boolean checkPalindrome(String word){
         //1st solution - using previously created method
         //return word.equalsIgnoreCase(reverseString(word));
         //2nd solution - independent
+        System.out.println("Checking palindrome in progress...");
         String wordLowerCase = word.toLowerCase();
         char[] chars = wordLowerCase.toCharArray();
         for (int i = 0; i < chars.length / 2; i++) {
@@ -86,7 +87,7 @@ public class LoopsExercises {
         System.out.print("]");
     }
 
-    private static void arraySorting(int[] intArray){
+    public static void arraySorting(int[] intArray){
         //1st way of ascending sorting
         //Arrays.sort(intArray);
         //System.out.println(Arrays.toString(intArray));
